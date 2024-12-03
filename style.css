@@ -1,1 +1,124 @@
+h1{
+    text-align: center;
+
+}
+.champs{
+    border: 1px solid black;
+    width: 680px;
+    height: 500px;
+    margin-left: 500px;
+    background-image: url(girl.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    
+}
+
+.form{
+    text-align: left;
+    border:none;
+    margin-top: 100px;
+    margin-left: 100px;
+    width: 450px;
+    height: 300px;
+    padding-right: 10px;
+    padding-top: 8px;
+    padding-bottom: 5px;
+    background-color: white;
+   word-spacing: 5px;
+}
+
+h1{
+    position: relative;
+    text-align: center;
+    font-size: small;
+}
+#femme{
+    position: absolute;
+    left: 615px;
+    margin-top: 5px;
+    margin-bottom: 1px;
+    height: 40%;
+    width: 15%;
+    
+
+}
+input{
+    font-size: 8px;
+    position: relative;
+    border: none;
+    outline: none;
+    background: none;
+    border-bottom:1px solid black;
+    color: black;
+    width: 35%;
+    margin-left: 2px;
+    margin-bottom: 2PX;
+    text-align: justify;
+    padding-right: 5px;
+    
+    /*margin-left: 2px;
+    margin-top: 5px;
+    text-align: justify;
+    padding-top: 5px;
+    padding-bottom: 2px;*/
+
+    
+}
+
+.text{
+    position: relative;
+    margin-left: 250px;
+    margin-top: 30px;
+    width: 40%;
+    height: 90%;
+    border: none;
+}
+#username, #email, #password, #confpassword {
+    width: 80%;
+
+}
+#firstname, #lastname{
+    width: 40%;
+}
+/*#label1::after{
+    content: '\1F513';
+}*/
+#gender{
+    font-size: smaller;
+    border: none;
+    outline: none;
+    background: none;
+    border-bottom: 1px solid black;
+    width: 80%;
+    margin-left: 2px;
+    text-align: left;
+    display: inline-block;
+}
+#genre{
+    font-size: 8px;
+}
+.env{
+    padding-top: 50px;
+    padding-left: 30%;
+}
+#submit{
+    font-size: 15px;
+    border: 60px;
+    padding: 5px;
+    background-color: black;
+    color: white;
+    width: 100px;
+    margin-right: 1px;
+    text-align: center;
+
+}
+@media screen and (min-width:300px) and (max-width:600px) {
+    #femme{
+        display: none;
+    }
+    
+}
+
+
 
